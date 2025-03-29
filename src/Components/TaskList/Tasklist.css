@@ -1,0 +1,136 @@
+.Navbar {
+    width: 100%;
+    height: 70px;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 140px;
+  }
+  .Navbar input{
+      height: 30px;
+      width: 220px;
+      border: none;
+      border-radius: 5px;
+  }
+  .Navbar button{
+      height: 30px;
+      width: 120px;
+      color: white;
+      background-color:blue;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  /*Progress Task css*/
+  .progressTask {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 40px; 
+  }
+  
+  .progressTask h3 {
+    margin-bottom: 20px; 
+  }
+  /*completed task css*/
+  .completedTask {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 40px;
+  }
+  .completedTask h3 {
+    margin-bottom: 20px; 
+  }
+  table {
+    width: 90%;
+    border-collapse: collapse;
+    background-color: rgb(253, 234, 193);
+  }
+  
+  thead {
+    background-color:gray; 
+    color: whitesmoke;
+  }
+  
+  th, td {
+    padding: 10px; 
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  tbody tr {
+    margin-bottom: 50px;
+  }
+  
+  tbody tr td {
+    padding-bottom: 50px; 
+  }
+  
+  /* Tablet ( 768px) */
+  @media (max-width: 768px) {
+    .Navbar {
+      flex-direction: column;
+      gap: 20px;
+      height: auto;
+      padding: 10px;
+    }
+    
+    .Navbar input {
+      width: 180px;
+      height: 25px;
+    }
+    
+    .Navbar button {
+      width: 100px;
+      height: 30px;
+    }
+  
+    .progressTask, .completedTask {
+      margin: 20px;
+    }
+  
+    table {
+      font-size: 14px; 
+    }
+  }
+  
+  /* Mobile devices (480px) */
+  @media (max-width: 480px) {
+    .Navbar {
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px;
+    }
+    
+    .Navbar h2 {
+      font-size: 18px; 
+    }
+    
+    .Navbar input {
+      width: 100%;
+      height: 25px;
+    }
+    
+    .Navbar button {
+      width: 100px;
+      height:30px;
+    }
+    .progressTask, .completedTask {
+      margin: 10px;
+    }
+    table {
+      width: 100%;
+      font-size: 12px; 
+    }
+    th, td {
+      padding: 8px; 
+    }
+    .modalButton button {
+      width: 80px;
+      height: 35px;
+    }
+  }

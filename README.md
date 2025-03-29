@@ -1,12 +1,40 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Task Management App - Frontend
+# Start Command :- npm run dev
+This is the frontend of the Task Management Application built with **React, Redux Toolkit, and Material-UI**. It allows users to **create, update, delete .**.
 
-Currently, two official plugins are available:
+## Features
+- User-friendly task management UI
+- Add, edit, delete, and update task statuses
+- Toast notifications for user actions
+- Responsive design with Material-UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack
+- **React.js** (Frontend framework)
+- **Redux Toolkit** (State management)
+- **Axios** (API calls)
+- **Material-UI** (UI components)
+- **React Router** (Navigation)
+- **React Hot Toast** (Notifications)
 
-## Expanding the ESLint configuration
+# Task Management App - Backend
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This is the backend of the Task Management Application built with **Node.js, Express, and MongoDB**. It provides **RESTful APIs** for managing tasks.
+
+## Features
+- **CRUD operations** for tasks
+- **Database integration with MongoDB**
+
+## Tech Stack
+- **Node.js** (Runtime)
+- **Express.js** (Web framework)
+- **MongoDB** (Database)
+- **Mongoose** (ODM)
+- **Cors** (Cross-Origin Resource Sharing)
+- **Dotenv** (Environment variables)
+
+.env
+PORT=8082
+MONGODB_URI=mongodb+srv://seikhabubakar47:Seikh786@cluster0.clk33ih.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+JWT_SECRET=SECRET
